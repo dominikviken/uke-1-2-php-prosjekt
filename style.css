@@ -1,0 +1,21 @@
+.site {
+    /* gjør fonten til alt som er i .site klassen til Segoe UI */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button, #btn {
+    /* gjør at knappene har ingen bakgrunn, ingen border, og ingen padding */
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /* gjør at knappene har en mørkeblå farge med en underlinje */
+    color: #069;
+    text-decoration: underline;
+    /* gjør at kursøren blir en pointer om man hovrer over de */
+    cursor: pointer;
+}
+
+button:hover, #btn:hover {
+    /* gjør at knappene blir oransje, og større når man hovrer over de */
+    color: orangered;
+    font-size: 20px;
+}
