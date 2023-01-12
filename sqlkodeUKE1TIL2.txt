@@ -1,7 +1,7 @@
-drop database excuses;
-drop table occasions, excuses;
+drop database if exists excuses;
 
 create database excuses;
+use excuses;
 
 create table occasions (
 id int primary key auto_increment,
